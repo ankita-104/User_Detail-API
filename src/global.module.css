@@ -1,0 +1,53 @@
+.head{
+    /* font-style: italic; */
+    font-family: montserrat;
+
+}
+.table{
+    /* padding: 2em; */
+  background-color: aliceblue;
+    border: 1em solid rgb(62, 131, 191);
+    border-radius: 2em; 
+    color: black;
+   /* outline: auto blue; */
+}
+.table {
+  padding: 5em;
+  border:1em solid rgb(49, 19, 84);
+  column-width:26em;
+}
+thead {
+  font-size: 1.2rem;
+  background-color: #443C68;
+  color: #fff;
+  padding: 3em;
+  font-family: montserrat;
+}
+
+
+li, p, a, td{
+  /* font-size: 1.6rem; */
+  line-height: 1.6;
+  min-width: 15rem;
+  border: 1px solid rgb(70, 13, 114);
+  font-family: montserrat;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 500px) {
+  li, p, a, td{
+    /* font-size: 1.6rem; */
+    line-height: 1.6;
+    min-width: 10rem;
+    border: 1px solid rgb(70, 13, 114);
+    font-family: montserrat;
+    font-weight: 400;
+  }
+}
+
+li, p, a, td:hover{
+  background-color: #443C68;
+ color: #fff;
+ cursor:cell;
+ transition: 0.5s;
+}
